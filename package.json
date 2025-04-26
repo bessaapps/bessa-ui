@@ -1,10 +1,9 @@
 {
   "name": "bessa-ui",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "main": "index.js",
-  "author": "",
+  "author": "Topher <topher@bessaapps.com> (https://bessaapps.com)",
   "license": "MIT",
-  "description": "",
   "homepage": "https://bessaapps.com",
   "repository": {
     "type": "git",
@@ -13,5 +12,6 @@
   "devDependencies": {
     "react": "^19.1.0",
     "react-native": "^0.79.1"
-  }
+  },
+  "funding": "https://cash.app/$getbessa"
 }

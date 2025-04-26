@@ -1,7 +1,7 @@
 # Bessa UI for React Native
 
 ![NPM Version](https://img.shields.io/npm/v/bessa-ui)
-![GitHub License](https://img.shields.io/github/license/:user/:repo)
+![GitHub License](https://img.shields.io/github/license/bessaapps/bessa-ui)
 ![Static Badge](https://img.shields.io/badge/PRs_Welcome!-blue)
 
 By [Topher](https://www.linkedin.com/in/topherjamesknoll/)
