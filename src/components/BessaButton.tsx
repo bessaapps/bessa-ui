@@ -13,6 +13,7 @@ interface BessaButtonProps {
   style?: any;
   containerStyle?: any;
   textStyle?: any;
+  props?: any;
 }
 
 const BessaButton: React.FC<BessaButtonProps> = ({
