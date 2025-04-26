@@ -9,7 +9,7 @@ import {
 } from "react-native";
 
 interface BessaButtonProps {
-  children?: any;
+  children?: React.ReactNode;
   isLoading?: boolean;
   style?: any;
   containerStyle?: any;

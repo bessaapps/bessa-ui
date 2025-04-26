@@ -1,6 +1,6 @@
 const spacer = 16;
 
-export const theme = {
+export const bessaUITheme = {
   colors: {
     black: "#000000",
     white: "#ffffff",
