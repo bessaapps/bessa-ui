@@ -1,7 +1,6 @@
 # Bessa UI for React Native
 
 ![NPM Version](https://img.shields.io/npm/v/bessa-ui)
-![GitHub License](https://img.shields.io/github/license/bessaapps/bessa-ui)
 ![Static Badge](https://img.shields.io/badge/PRs_Welcome!-blue)
 
 By [Topher](https://www.linkedin.com/in/topherjamesknoll/)
@@ -18,7 +17,7 @@ import { BessaButton } from "bessa-ui/src";
 
 ```javascript
 <BessaUIProvider theme={{}}>
-    <BessaButton colorScheme={"blue"} onPress={() => {}}>I'm a Button</BessaButton>
+    <BessaButton colorScheme={"blue"} onPress={() => {}}>Button</BessaButton>
 </BessaUIProvider>
 ```
 
