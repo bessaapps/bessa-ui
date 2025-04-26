@@ -17,7 +17,9 @@ import { BessaButton } from "bessa-ui/src";
 ```
 
 ```javascript
-<BessaButton colorScheme={"blue"}>I'm a Button</BessaButton>
+<BessaUIProvider theme={yourCustomTheme}>
+    <BessaButton colorScheme={"blue"}>I'm a Button</BessaButton>
+</BessaUIProvider>
 ```
 
 ## 📖 Documentation
