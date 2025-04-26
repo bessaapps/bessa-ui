@@ -23,9 +23,11 @@ import { BessaButton } from "bessa-ui/src";
 
 ## 📖 Documentation
 
-### Colors
+### Theming
 
 22 base colors, represented by 500, are based on the [Preline Design System](https://www.figma.com/community/file/1426768828937610338). Each color is divided into 11 tints and shades, +95%, +80%, +60%, +40%, +20%, 0%, -20%, -40%, -60%, -80%, and -95%, in light mode and reversed in dark mode.
+
+To customize the theme, make a copy of [bessa-ui-theme.ts](utils/bessa-ui-theme.ts) and pass the JSON object into the BessaUIProvider component as _theme_.
 
 ## 🔗 Useful Links
 
