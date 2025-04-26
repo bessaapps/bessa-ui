@@ -28,6 +28,8 @@ import { BessaButton } from "bessa-ui/src";
 
 ## 🔗 Useful Links
 
+[Dev Gotchas](https://devgotchas.com)
+
 [Bessa LGBTQ Social Media App](https://getbessa.com)
 
 [WynHouse: An Innovation Firm](https://www.wynhouse.co/)
