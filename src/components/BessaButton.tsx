@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   ActivityIndicator,
 } from "react-native";
+import { useBessaUI } from "../BessaUIContext";
 
 interface BessaButtonProps {
   children?: React.ReactNode;
@@ -25,6 +26,10 @@ const BessaButton: React.FC<BessaButtonProps> = ({
   textStyle,
   ...props
 }) => {
+  const { theme } = useBessaUI();
+
+  console.log(theme);
+
   return (
     <View style={[styles.container, containerStyle]}>
       <TouchableOpacity {...props} style={[styles.base, style]}>

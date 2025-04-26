@@ -8,7 +8,7 @@ interface BessaUIContextProps {
 
 interface BessaUIProviderProps {
   children: React.ReactNode;
-  // theme?: any;
+  theme?: any;
 }
 
 export const BessaUIContext = createContext<BessaUIContextProps | null>(null);
