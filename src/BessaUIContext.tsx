@@ -1,9 +1,7 @@
 import React, { createContext, useContext } from "react";
 import { bessaUITheme } from "../utils/bessa-ui-theme";
 
-interface BessaUIContextProps {
-  bessaUITheme: any;
-}
+interface BessaUIContextProps {}
 
 interface BessaUIProviderProps {
   children: React.ReactNode;
