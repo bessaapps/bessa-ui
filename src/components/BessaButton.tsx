@@ -1,3 +1,5 @@
+import React from "react";
+
 import {
   StyleSheet,
   Text,
@@ -6,7 +8,14 @@ import {
   ActivityIndicator,
 } from "react-native";
 
-const BessaButton = ({
+interface BessaButtonProps {
+  isLoading?: boolean;
+  style?: any;
+  containerStyle?: any;
+  textStyle?: any;
+}
+
+const BessaButton: React.FC<BessaButtonProps> = ({
   children,
   isLoading,
   style,
