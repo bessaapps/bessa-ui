@@ -13,6 +13,8 @@ import { useBessaUI } from "../BessaUIContext";
 interface BessaButtonProps {
   children?: React.ReactNode;
   colorTheme?: string;
+  size?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl";
+  radius?: "sm" | "md" | "lg" | "xl" | "full";
   isLoading?: boolean;
   style?: any;
   containerStyle?: any;
@@ -22,6 +24,8 @@ interface BessaButtonProps {
 const BessaButton: React.FC<BessaButtonProps> = ({
   children,
   colorTheme = "teal",
+  size = "md",
+  radius = "xl",
   isLoading,
   style,
   containerStyle,
@@ -32,20 +36,26 @@ const BessaButton: React.FC<BessaButtonProps> = ({
   const { theme } = useBessaUI();
 
   return (
-    <View style={[styles.container, containerStyle]}>
+    <View style={containerStyle}>
       <TouchableOpacity
         {...props}
         style={[
           styles.base,
-          { backgroundColor: theme.colors[colorScheme]?.[colorTheme][500] },
+          {
+            backgroundColor: theme.colors[colorScheme]?.[colorTheme][500],
+            paddingVertical: theme.spacings[size],
+            paddingHorizontal: theme.spacings[size] * 2,
+          },
           style,
         ]}
       >
         {children && (
           <Text
             style={[
+              {
+                color: theme.colors[colorScheme]?.[colorTheme][50],
+              },
               textStyle,
-              { color: theme.colors[colorScheme]?.[colorTheme][50] },
             ]}
           >
             {children}
@@ -58,9 +68,6 @@ const BessaButton: React.FC<BessaButtonProps> = ({
 };
 
 const styles = StyleSheet.create({
-  container: {
-    overflow: "hidden",
-  },
   base: {
     flexDirection: "row",
     alignItems: "center",
