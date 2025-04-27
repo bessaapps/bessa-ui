@@ -3,17 +3,11 @@
 ![NPM Version](https://img.shields.io/npm/v/bessa-ui)
 ![Static Badge](https://img.shields.io/badge/PRs_Welcome!-blue)
 
-By [Topher](https://www.linkedin.com/in/topherjamesknoll/)
-
-Lightweight themeable components for React Native
+Lightweight and themeable components for React Native
 
 ## 🎉 Getting Started
 
-```npm install bessa-ui```
-
-```yarn add bessa-ui```
-
-```expo install bessa-ui```
+```npm install bessa-ui``` or ```yarn add bessa-ui``` or ```expo install bessa-ui```
 
 ```javascript
 import { BessaButton } from "bessa-ui/src";
@@ -35,8 +29,8 @@ To customize the theme, make a copy of [bessa-ui-theme.ts](utils/bessa-ui-theme.
 
 ## 🔗 Useful Links
 
-[Dev Gotchas](https://devgotchas.com)
+[Dev Gotchas](https://devgotchas.com) by [Topher](https://www.linkedin.com/in/topherjamesknoll/)
 
-[Bessa LGBTQ Social Media App](https://getbessa.com)
+An example: [Bessa LGBTQ Social Media App](https://getbessa.com)
 
 [WynHouse: An Innovation Firm](https://www.wynhouse.co/)
