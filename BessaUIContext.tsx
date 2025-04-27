@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from "react";
-import { bessaUITheme } from "../utils/bessa-ui-theme";
+import { bessaUITheme } from "./utils/bessa-ui-theme";
 
 interface BessaUIContextProps {}
 

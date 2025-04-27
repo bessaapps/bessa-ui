@@ -1,7 +1,6 @@
 {
   "name": "bessa-ui",
-  "version": "1.0.37",
-  "main": "index.js",
+  "version": "1.0.38",
   "author": "Topher <topher@bessaapps.com> (https://bessaapps.com)",
   "license": "MIT",
   "homepage": "https://bessaapps.com",

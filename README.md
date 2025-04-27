@@ -11,6 +11,10 @@ Lightweight themeable components for React Native
 
 ```npm install bessa-ui```
 
+```yarn add bessa-ui```
+
+```expo install bessa-ui```
+
 ```javascript
 import { BessaButton } from "bessa-ui/src";
 ```
