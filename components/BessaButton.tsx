@@ -16,9 +16,10 @@ interface BessaButtonProps {
   size?: "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl";
   radius?: "none" | "sm" | "md" | "lg" | "xl" | "full";
   isLoading?: boolean;
-  style?: any;
-  containerStyle?: any;
-  textStyle?: any;
+  style?: object;
+  containerStyle?: object;
+  textStyle?: object;
+  [x: string]: any;
 }
 
 const BessaButton: React.FC<BessaButtonProps> = ({
