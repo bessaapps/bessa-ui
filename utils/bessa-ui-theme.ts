@@ -591,6 +591,7 @@ export const bessaUITheme = {
     "3xl": spacer * 4, // 64
   },
   radius: {
+    none: 0,
     sm: spacer * 0.25, // 4
     md: spacer * 0.5, // 8
     lg: spacer * 0.75, // 12
